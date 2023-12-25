@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgba(0, 0, 0,0.85); */
+    background-image: url(img/bkg02.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid transparent; 
+    border-radius: 18px;
+    background-image: linear-gradient(to right, #12191f 40%,#28404c);
+    box-shadow: 5px 5px 10px rgb(255, 255, 255,0.2),
+    -1px -1px 3px rgb(255, 255, 255,0.4);
+}
+
+.form-container:hover{
+    background-image: linear-gradient(to right, #12191f 30%,#1a2c35);
+}
+
+.input-group{
+    color: #fff;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 70%;
+}
+
+h2{
+    padding: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+h2:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2%;
+    cursor: default;
+}
+
+.input-group input{
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0,0.5),
+    -1px -1px 4px rgba(159, 156, 156, 0.5);
+    outline: none;
+    background: transparent;
+    height: 30px;
+    width: 210px;
+}
+
+.input-group textarea{
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0,0.5),
+    -1px -1px 4px rgba(159, 156, 156, 0.5);
+    outline: none;
+    background: transparent;
+    height: 80px;
+    width: 210px;
+    resize: none;
+    overflow-y: auto;
+
+}
+
+/* .button-wrap{
+    position: relative;
+    bottom: -22px;
+} */
+
+button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0,0.6),
+    -1px -1px 4px rgba(181, 178, 178, 0.7);
+    outline: none;
+    font-weight: 500;
+}
+
+button:hover{
+    color: #fff;
+    background-color: #171515;
+    font-weight: 600;
+}
+
+.input-group label{
+    padding: 5px;
+    margin-left: 2px;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.input-group input[type="number"]::-webkit-inner-spin-button{
+    display: none;
+}
+
+
+
+
+
+
+
+
