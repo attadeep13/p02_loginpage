@@ -78,6 +78,7 @@ h2:hover{
     background: transparent;
     height: 30px;
     width: 210px;
+    padding: 8px;
 }
 
 .input-group textarea{
@@ -92,7 +93,7 @@ h2:hover{
     width: 210px;
     resize: none;
     overflow-y: auto;
-
+    padding: 8px;
 }
 
 /* .button-wrap{
